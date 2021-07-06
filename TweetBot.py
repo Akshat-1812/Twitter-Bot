@@ -120,7 +120,7 @@ print('press 4 for TimeLine Tweet')
 print('press 5 for TimeLine Tweet')
 print('press 6 for TimeLine Tweet')
 
-choice = int('enter your choice ')
+choice = int(input('enter your choice '))
 
 if(choice==1):
     bot.myTimeLineTweet()
