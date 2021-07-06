@@ -3,8 +3,8 @@ import time
 
 class TweetBot():
     # class variables......
-    auth = tweepy.OAuthHandler('', '')
-    auth.set_access_token('', '')
+    auth = tweepy.OAuthHandler('','')
+    auth.set_access_token('','')
 
     api = tweepy.API(auth)
     user = api.me()
