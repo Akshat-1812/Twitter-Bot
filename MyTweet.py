@@ -2,8 +2,8 @@ import tweepy
 import time
 
 
-auth = tweepy.OAuthHandler('I2znntbizUOED8HgJesCcTAkn', 'DwgvRUIV34VSp7Mp2JS30oFop7x05DiLGyUEBKRnjj4NUSLizw')
-auth.set_access_token('1183312006985801729-MhmIWxii1JvdOeWwCdERW21kEKiNVO', 'dDvqzxcncZfcwPho7lazjfLg6iWFfLUWW7ZyFq9qv6Wz0')
+auth = tweepy.OAuthHandler('', '')
+auth.set_access_token('', 'dDvqzxcncZfcwPho7lazjfLg6iWFfLUWW7ZyFq9qv6Wz0')
 
 api = tweepy.API(auth)
 
